@@ -1,0 +1,55 @@
+body{
+    background: peachpuff;
+    font-family: "Nunito" , sans-serif;
+}
+
+#mainNavbar
+{
+    font-size: 1.5rem;
+    font-weight: 100;  
+}
+#mainNavbar .navbar-brand
+{
+    color: red;
+   
+}
+#navbarNav .nav-link
+{
+color: white;
+}
+#navbarNav .nav-link:hover
+{
+color: red;
+}
+
+#headingGroup h3
+ {
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}
+#headingGroup span
+{
+    color: red;
+}
+
+
+
+@media(max-width:1200px)
+{
+    #headingGroup h3
+ {
+    font-size: 1rem;
+    font-weight: 100;
+    
+}
+
+.img-fluid
+{
+    width: -webkit-fill-available;
+}
+}
+.lollipop
+{
+    height: 3rem;
+}
